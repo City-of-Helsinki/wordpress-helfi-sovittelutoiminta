@@ -1,0 +1,20 @@
+path: web/wp
+server:
+  docroot: web
+
+require:
+  - vendor/generoi/genero-conf/wp/wp-cli-pre-ssh.php
+
+'@docker':
+  path: /var/www/html/web/wp
+  url: helsinki-sovittelutoiminta.ddev.local
+
+'@dev':
+  ssh: vagrant@helsinki-sovittelutoiminta.test/var/www/wordpress/web/wp
+  url: helsinki-sovittelutoiminta.test
+
+'@production':
+  ssh: helsinkisovittelutoiminta@35.228.245.82:29458/www/helsinkisovittelutoiminta_902/public/current/web/wp
+  url: helsinkisovittelutoiminta.kinsta.cloud
+  # bin_path: $HOME/.config/composer/vendor/bin
+  # php_path: /usr/bin/php72
