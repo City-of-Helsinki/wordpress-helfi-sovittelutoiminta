@@ -30,9 +30,7 @@ mix.copyWatched('resources/assets/images', 'dist/images', {base: 'resources/asse
    .copyWatched('resources/assets/fonts', 'dist/fonts', {base: 'resources/assets/fonts'});
 
 mix.copy('resources/assets/scripts/polyfill.js', 'dist/scripts/polyfill.js')
-  .copy('node_modules/jquery/dist/jquery.min.js', 'dist/scripts/jquery.js')
-  .copyWatched('resources/assets/chat/chat.js', 'dist/chat/chat.js')
-  .copyWatched('resources/assets/chat/chat.css', 'dist/chat/chat.css');
+  .copy('node_modules/jquery/dist/jquery.min.js', 'dist/scripts/jquery.js');
 
 mix.autoload({
   jquery: ['$', 'window.jQuery'],

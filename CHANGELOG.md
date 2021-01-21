@@ -26,3 +26,7 @@
 ## 0.1.0
 
 - Added basic site.
+
+## 0.1.1
+
+- Removed chat popup.
