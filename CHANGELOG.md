@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- Removed chat popup.
 - Added support for having only one language.
 - Added Link List Block.
 - Added Hero style for Media & Text Block.
