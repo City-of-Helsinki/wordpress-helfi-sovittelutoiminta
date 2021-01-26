@@ -123,20 +123,6 @@ add_action('template_redirect', function () {
     }
 });
 
-// Make excerpt mandatory for posts.
-add_filter('wp_insert_post_data', function ($data) {
-    if ('post' != $data['post_type']) {
-        return $data;
-    }
-
-    $excerpt = $data['post_excerpt'];
-    if (empty($excerpt)) {
-        $data['post_status'] = 'draft';
-    }
-
-    return $data;
-});
-
 // Fix pagination on some pages
 add_filter('redirect_canonical', function ($redirect_url) {
     if (is_single() && get_query_var('paged')) {
