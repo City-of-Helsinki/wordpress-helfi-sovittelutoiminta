@@ -2,18 +2,34 @@
   // @todo Gutenberg bug
   border: none;
   position: relative;
+  padding-left: 0;
 
   &::before {
     content: '“';
     font-size: 100px;
+    line-height: 1;
     color: $color-bus;
     display: block;
     position: absolute;
-    top: -35px;
+    top: -0.4rem;
   }
 
-  > p {
+  p {
     margin-left: 60px;
+    margin-bottom: 0.5rem;
+    font-size: inherit;
+  }
+
+  cite {
+    margin-top: 0;
+    margin-left: 60px;
+    font-size: 1.125rem;
+    line-height: 1.625rem;
+    color: map-get($color-palette, 'black-90');
+
+    &::before {
+      content: ' - ';
+    }
   }
 
   &.is-style-large {
