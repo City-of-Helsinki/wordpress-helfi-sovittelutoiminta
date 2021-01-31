@@ -25,20 +25,6 @@
       @if ($title)
         <h2 class="teaser__title has-medium-heading-font-size">{!! $title !!}</h2>
       @endif
-      @if ($excerpt)
-        <p class="teaser__excerpt" id="teaser-{{ $id }}-excerpt">{!! $excerpt !!}</p>
-      @endif
     </div>
   </a>
-  @if ($tags)
-  <ul class="teaser__tags">
-    @if ($tags)
-      @foreach ($tags as $tag)
-        <li>
-          <a href="{!! get_tag_link($tag) !!}">{!! $tag->name !!}</a>
-        </li>
-      @endforeach
-    @endif
-  </ul>
-  @endif
 </div>

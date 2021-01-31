@@ -8,6 +8,7 @@
 - Added box style to group block.
 - Tweaked heading margins.
 - Updated large paragraph text size.
+- Updated teasers.
 
 ## 0.1.0
 
