@@ -161,6 +161,8 @@
   }
 
   &.is-style-box {
-    padding: $spacing-l;
+    padding: $spacing-l $spacing-m;
+    margin-top: $spacing-m;
+    margin-bottom: $spacing-m;
   }
 }
