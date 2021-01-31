@@ -113,7 +113,8 @@
 
     @include mq($from: large) {
       .wp-block-group.has-background {
-        padding-bottom: calc(#{$spacing-layout-s} + 50px);
+        padding-top: 110px;
+        padding-bottom: 110px;
       }
     }
 

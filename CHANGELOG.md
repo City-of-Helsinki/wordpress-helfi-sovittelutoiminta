@@ -17,6 +17,7 @@
 - Changed page and post header background color.
 - Made top navigation narrower to match other content.
 - Removed React & Share from posts.
+- Tweaked post and page header padding.
 
 ## 0.1.0
 
