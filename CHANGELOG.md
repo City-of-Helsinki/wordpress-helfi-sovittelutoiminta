@@ -11,6 +11,7 @@
 - Updated teasers.
 - Updated top navigation dropdown styles.
 - Updated highlight block styles.
+- Updated search results page.
 
 ## 0.1.0
 

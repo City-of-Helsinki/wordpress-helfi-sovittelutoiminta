@@ -4,7 +4,7 @@
   <header class="entry-header">
     <h1 class="entry-title">{!! $title !!}</h1>
 
-    <h4>{{ sprintf(__('For search: %s', 'hds'), get_search_query()) }}</h4>
+    <h4>{{ sprintf(__('For search: %s', 'welcome.helsinki'), get_search_query()) }}</h4>
   </header>
 
 
@@ -22,7 +22,7 @@
       <div class="alignwide">
         <div class="grid">
           @while(have_posts()) @php(the_post())
-            <div class="cell">
+            <div class="cell small:4 medium:4 large:4">
               @include('partials.content-search')
             </div>
           @endwhile
