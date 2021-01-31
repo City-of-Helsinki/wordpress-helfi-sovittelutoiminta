@@ -9,6 +9,7 @@
 - Tweaked heading margins.
 - Updated large paragraph text size.
 - Updated teasers.
+- Updated top navigation dropdown styles.
 
 ## 0.1.0
 
