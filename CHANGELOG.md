@@ -12,6 +12,7 @@
 - Updated top navigation dropdown styles.
 - Updated highlight block styles.
 - Updated search results page.
+- Restored pages to search results.
 
 ## 0.1.0
 
