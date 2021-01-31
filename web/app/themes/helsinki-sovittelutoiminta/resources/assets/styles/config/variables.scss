@@ -87,7 +87,7 @@ $color-palette: (
 $font-sizes: (
   small: $fontsize-body-s,
   medium: $fontsize-body-m,
-  large: $fontsize-body-l,
+  large: $fontsize-body-xl,
 );
 
 $primary-color: map-get($color-palette, 'primary');

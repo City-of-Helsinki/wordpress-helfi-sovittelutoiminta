@@ -7,6 +7,7 @@
 - Added link block.
 - Added box style to group block.
 - Tweaked heading margins.
+- Updated large paragraph text size.
 
 ## 0.1.0
 
