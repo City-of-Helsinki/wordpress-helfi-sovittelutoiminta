@@ -50,12 +50,6 @@
     </div>
   </div>
 
-  <x-group align="full">
-    <div class="wp-block-react-share alignwide">
-      @include('partials/react-and-share')
-    </div>
-  </x-group>
-
   <x-related-content
     :type="$related->type"
     :label="$related->label"

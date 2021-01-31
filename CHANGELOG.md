@@ -16,6 +16,7 @@
 - Enabled table block.
 - Changed page and post header background color.
 - Made top navigation narrower to match other content.
+- Removed React & Share from posts.
 
 ## 0.1.0
 
