@@ -6,7 +6,7 @@
       @else
         @svg('images/logo/helsinki-fi.svg', '', ['width' => 67, 'height' => 31])
       @endif
-      <a href="/" class="footer__name">helsinki-sovittelutoiminta</a>
+      <a href="/" class="footer__name">{{ $site_name }}</a>
     </div>
     <div class="footer__menu">
       @php(dynamic_sidebar('footer-menu'))
