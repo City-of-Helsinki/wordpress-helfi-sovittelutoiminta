@@ -123,7 +123,6 @@ var excludeBlockTypes = [
   'core/rss',
   'core/search',
   'core/social-links',
-  'core/table',
   'core/tag-cloud',
   'core-embed/amazon-kindle',
   'core-embed/animoto',

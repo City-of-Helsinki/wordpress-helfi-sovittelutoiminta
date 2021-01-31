@@ -13,6 +13,7 @@
 - Updated highlight block styles.
 - Updated search results page.
 - Restored pages to search results.
+- Enabled table block.
 
 ## 0.1.0
 
