@@ -10,6 +10,7 @@
 - Updated large paragraph text size.
 - Updated teasers.
 - Updated top navigation dropdown styles.
+- Updated highlight block styles.
 
 ## 0.1.0
 
