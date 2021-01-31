@@ -14,6 +14,7 @@
 - Updated search results page.
 - Restored pages to search results.
 - Enabled table block.
+- Changed page and post header background color.
 
 ## 0.1.0
 
