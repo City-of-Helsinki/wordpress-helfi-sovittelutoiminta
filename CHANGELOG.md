@@ -15,6 +15,7 @@
 - Restored pages to search results.
 - Enabled table block.
 - Changed page and post header background color.
+- Made top navigation narrower to match other content.
 
 ## 0.1.0
 
