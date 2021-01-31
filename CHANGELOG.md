@@ -18,6 +18,7 @@
 - Made top navigation narrower to match other content.
 - Removed React & Share from posts.
 - Tweaked post and page header padding.
+- Added description style for paragraph.
 
 ## 0.1.0
 

@@ -195,6 +195,10 @@ domReady(() => {
     isDefault: true,
   });
   registerBlockStyle('core/paragraph', {
+    name: 'description',
+    label: 'Description',
+  })
+  registerBlockStyle('core/paragraph', {
     name: 'tip',
     label: 'Tip',
     isDefault: false,
