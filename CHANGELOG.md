@@ -19,6 +19,7 @@
 - Removed React & Share from posts.
 - Tweaked post and page header padding.
 - Added description style for paragraph.
+- Made highlight blocks reusable.
 
 ## 0.1.0
 

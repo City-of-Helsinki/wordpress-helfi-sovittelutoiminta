@@ -17,7 +17,7 @@ registerBlockType(name, {
     html: false,
     inserter: true,
     multiple: true,
-    reusable: false,
+    reusable: true,
   },
   attributes,
   edit,
