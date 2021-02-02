@@ -11,21 +11,21 @@
     color: $color-bus;
     display: block;
     position: absolute;
-    top: -0.4rem;
+    top: -$spacing-2-xs;
   }
 
   p {
-    margin-left: 60px;
-    margin-bottom: 0.5rem;
+    margin-left: $spacing-3-xl;
+    margin-bottom: $spacing-2-xs;
     font-size: inherit;
   }
 
   cite {
     margin-top: 0;
-    margin-left: 60px;
-    font-size: 1.125rem;
-    line-height: 1.625rem;
-    color: map-get($color-palette, 'black-90');
+    margin-left: $spacing-3-xl;
+    font-size: $fontsize-body-l;
+    line-height: $lineheight-xl;
+    color: $color-black-90;
 
     &::before {
       content: ' - ';
