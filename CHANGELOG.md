@@ -21,6 +21,7 @@
 - Tweaked post and page header padding.
 - Added description style for paragraph.
 - Made highlight blocks reusable.
+- Added plugin and styles for Infogram embeds.
 
 ## 0.1.0
 
