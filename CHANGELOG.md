@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- Update quote block styles.
 - Removed chat popup.
 - Made excerpt not mandatory for posts.
 - Added link block.
