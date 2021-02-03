@@ -22,6 +22,7 @@
 - Added description style for paragraph.
 - Made highlight blocks reusable.
 - Added plugin and styles for Infogram embeds.
+- Added styles for Complianz cookie banner.
 
 ## 0.1.0
 
