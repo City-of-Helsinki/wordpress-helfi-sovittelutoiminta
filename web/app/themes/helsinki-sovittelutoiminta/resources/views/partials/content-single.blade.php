@@ -42,11 +42,16 @@
         @endif
 
         @php(the_content())
-
       </x-group>
     </div>
     <div class="entry-sidebar">
       @include('partials/entry-meta')
     </div>
   </div>
+
+  <x-group align="full">
+    @if ($footer_reusable_block)
+      {!! $footer_reusable_block !!}
+    @endif
+  </x-group>
 </article>

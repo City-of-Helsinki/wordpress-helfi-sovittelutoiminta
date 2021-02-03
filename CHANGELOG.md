@@ -25,6 +25,7 @@
 - Added styles for Complianz cookie banner.
 - Enabled YouTube embed block.
 - Updated some list styles.
+- Added option to display reusable block under each post.
 
 ## 0.1.0
 
