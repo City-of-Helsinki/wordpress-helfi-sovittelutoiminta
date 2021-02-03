@@ -23,6 +23,7 @@
 - Made highlight blocks reusable.
 - Added plugin and styles for Infogram embeds.
 - Added styles for Complianz cookie banner.
+- Enabled YouTube embed block.
 
 ## 0.1.0
 
