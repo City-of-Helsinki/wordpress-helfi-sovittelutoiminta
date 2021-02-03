@@ -10,6 +10,10 @@ h6 {
   margin-bottom: $spacing-l;
   line-height: $lineheight-m;
 
+  &:last-child {
+    margin-bottom: 0;
+  }
+
   // increase specificity to override inline editor styles
   @if not $is-frontend {
     :root & {
