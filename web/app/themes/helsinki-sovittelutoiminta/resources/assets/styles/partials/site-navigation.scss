@@ -11,10 +11,6 @@
     max-width: var(--container-width);
   }
 
-  @include mq($from: 1500px) {
-    max-width: 1400px;
-  }
-
   @include ie11 {
     max-width: $global-width;
   }
