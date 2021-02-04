@@ -8,10 +8,17 @@
   </x-image>
 
   <ul>
-    <li><h3>{!! get_the_title($post) !!}</h3></li>
+    <li class="person-teaser__name">
+      <h3>{!! get_the_title($post) !!}</h3>
+    </li>
       @if ($post->email)
         <li class="person-teaser__email">
           <a href="mailto:{{ $post->email }}">{{ $post->email }}</a>
+        </li>
+      @endif
+      @if ($post->telephone)
+        <li class="person-teaser__telephone">
+          <a href="tel:{{ $post->telephone }}">{{ $post->telephone }}</a>
         </li>
       @endif
       @if ($post->description)
