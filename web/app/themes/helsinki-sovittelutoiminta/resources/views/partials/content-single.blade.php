@@ -51,7 +51,7 @@
 
   <x-group align="full">
     @if ($footer_reusable_block)
-      {!! $footer_reusable_block !!}
+      {!! apply_filters('the_content', $footer_reusable_block) !!}
     @endif
   </x-group>
 </article>
