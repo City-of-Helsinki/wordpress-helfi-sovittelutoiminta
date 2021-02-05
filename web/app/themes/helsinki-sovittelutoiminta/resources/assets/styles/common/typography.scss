@@ -6,19 +6,25 @@ h5,
 h6 {
   font-family: $font-default, Georgia, "Times", "Times New Roman", serif;
   font-weight: bold;
-  margin-top: 0;
-  margin-bottom: $spacing-l;
+  margin-block-start: 0;
+  margin-block-end: $spacing-l;
   line-height: $lineheight-m;
-
-  &:last-child {
-    margin-bottom: 0;
-  }
 
   // increase specificity to override inline editor styles
   @if not $is-frontend {
     :root & {
       margin-top: 0;
       margin-bottom: 0.5rem;
+    }
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+      background-color: unset;
     }
   }
 }
@@ -60,8 +66,8 @@ h6 {
 }
 
 blockquote {
-  font-size: 1.375rem;
-  line-height: 1.875rem;
+  font-size: 22px;
+  line-height: 1.55;
   font-style: italic;
 }
 
