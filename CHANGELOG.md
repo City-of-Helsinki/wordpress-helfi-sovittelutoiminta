@@ -28,6 +28,7 @@
 - Added option to display reusable block under each post.
 - Updated person block styles.
 - Added telephone field for persons.
+- Updated table block styles.
 
 ## 0.1.0
 
