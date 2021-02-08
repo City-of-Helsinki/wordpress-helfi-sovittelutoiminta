@@ -23,10 +23,15 @@
   }
 
   th {
-    padding-top: $spacing-m;
-    padding-bottom: $spacing-m;
+    padding-top: $spacing-2-xs;
+    padding-bottom: $spacing-2-xs;
     line-height: $lineheight-l;
     font-weight: normal;
+
+    @include mq($from: large) {
+      padding-top: $spacing-m;
+      padding-bottom: $spacing-m;
+    }
   }
 
   &.is-style-stripes {
