@@ -1,6 +1,6 @@
 .wp-block-table {
   text-align: left;
-  
+
   table {
     border-spacing: 0;
   }
@@ -9,7 +9,6 @@
     border: none;
     color: $color-white;
     background-color: $color-bus;
-    font-weight: normal;
   }
 
   tbody tr:nth-child(even) {
@@ -27,6 +26,7 @@
     padding-top: $spacing-m;
     padding-bottom: $spacing-m;
     line-height: $lineheight-l;
+    font-weight: normal;
   }
 
   &.is-style-stripes {
