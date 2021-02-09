@@ -30,6 +30,7 @@
 - Added telephone field for persons.
 - Updated table block styles.
 - Fixed some URL structures being broken.
+- Made person post type public.
 
 ## 0.1.0
 
