@@ -237,6 +237,15 @@ domReady(() => {
     name: 'koro-top-pulse',
     label: 'Pulse koro top',
   })
+  // Register block style for icons in list block
+  registerBlockStyle('core/list', {
+    name: 'default',
+    label: 'Default',
+  })
+  registerBlockStyle('core/list', {
+    name: 'check-circle',
+    label: 'Check circle',
+  })
 
   addFilter(
     'editor.BlockListBlock', 'sage/with-forced-image-fill',
