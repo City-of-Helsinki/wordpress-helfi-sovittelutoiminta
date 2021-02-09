@@ -36,14 +36,12 @@
     @if (is_front_page())
       @php(the_content())
     @else
-      <x-group align="wide">
-        @if (get_the_excerpt())
-          <p class="description">
-            {{ get_the_excerpt() }}
-          </p>
-        @endif
-        @php(the_content())
-      </x-group>
+      @if (get_the_excerpt())
+        <p class="description">
+          {{ get_the_excerpt() }}
+        </p>
+      @endif
+      @php(the_content())
     @endif
   </div>
 
