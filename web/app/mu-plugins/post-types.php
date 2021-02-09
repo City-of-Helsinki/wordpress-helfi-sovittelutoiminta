@@ -99,7 +99,7 @@ class PostTypes
     public function registerPerson()
     {
         $person = new PostType('person', [
-            'public' => true,
+            'public' => false,
             'show_ui' => true,
             'has_archive' => false,
             'show_in_rest' => true,
