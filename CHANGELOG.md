@@ -31,6 +31,7 @@
 - Updated table block styles.
 - Fixed some URL structures being broken.
 - Made person post type public.
+- Removed placeholder image from person teasers.
 
 ## 0.1.0
 
