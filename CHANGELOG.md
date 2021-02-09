@@ -29,6 +29,7 @@
 - Updated person block styles.
 - Added telephone field for persons.
 - Updated table block styles.
+- Fixed some URL structures being broken.
 
 ## 0.1.0
 
