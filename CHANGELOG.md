@@ -32,6 +32,7 @@
 - Fixed some URL structures being broken.
 - Made person post type public.
 - Removed placeholder image from person teasers.
+- Updated person list block styles.
 
 ## 0.1.0
 

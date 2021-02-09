@@ -1,5 +1,10 @@
 .wp-block-person-list {
+  ul {
+    margin-bottom: 0;
+  }
+
   [class^="cell"] {
-    margin-bottom: $spacing-layout-m;
+    margin-top: 0;
+    margin-bottom: $spacing-xl;
   }
 }
