@@ -6,7 +6,7 @@
       aria-controls="site-languages"
       aria-expanded="false"
     >
-      {{ $language_code }}
+      {{ $language_name }}
       <span class="site-languages__trigger hds-icon hds-icon--angle-down" aria-hidden="true"></span>
     </button>
     <ul

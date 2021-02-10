@@ -27,6 +27,7 @@ class Navigation extends Composer
             'primary_navigation' => $this->primaryNavigation(),
             'language_navigation' => $this->languageNavigation(),
             'language_code' => $this->languageCode(),
+            'language_name' => $this->languageName()
         ];
     }
 
@@ -42,6 +43,11 @@ class Navigation extends Composer
     public function languageCode(): string
     {
         return mb_strtoupper(mb_substr(get_locale(), 0, 2));
+    }
+
+    public function languageName(): string
+    {
+        return mb_strtoupper(pll_current_language('name'));
     }
 
     public function languageNavigation(): array
