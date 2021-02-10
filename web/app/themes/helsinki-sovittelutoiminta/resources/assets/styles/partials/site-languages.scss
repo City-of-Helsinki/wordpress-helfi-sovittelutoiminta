@@ -19,6 +19,11 @@
 
     &__language-icon {
       margin-right: $spacing-2-xs;
+
+      [dir="rtl"] & {
+        margin-right: 0;
+        margin-left: $spacing-2-xs;
+      }
     }
   }
 
@@ -31,6 +36,7 @@
     background-color: $color-white;
     border: solid 1px $color-black-90;
     padding-left: 0;
+    padding-right: 0;
     z-index: 101;
     margin: 0;
 
@@ -68,5 +74,10 @@
     height: $spacing-m;
     position: absolute;
     right: 0;
+
+    [dir="rtl"] & {
+      right: auto;
+      left: 0;
+    }
   }
 }

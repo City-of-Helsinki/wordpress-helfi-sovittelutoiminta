@@ -33,6 +33,7 @@
 - Made person post type public.
 - Removed placeholder image from person teasers.
 - Updated person list block styles.
+- Added RTL support to various components.
 
 ## 0.1.0
 

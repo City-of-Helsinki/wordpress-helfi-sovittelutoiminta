@@ -22,6 +22,11 @@
     // Offset so the text within the logo is vertically centered
     margin-bottom: -5px;
 
+    [dir="rtl"] & {
+      margin-left: $spacing-m;
+      margin-right: 0;
+    }
+
     &:hover {
       background-color: transparent;
     }
