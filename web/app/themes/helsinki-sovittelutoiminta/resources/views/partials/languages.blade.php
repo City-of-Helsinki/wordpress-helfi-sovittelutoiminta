@@ -6,6 +6,7 @@
       aria-controls="site-languages"
       aria-expanded="false"
     >
+      <span class="hds-icon hds-icon--size-s hds-icon--globe site-languages__button__language-icon"></span>
       {{ $language_name }}
       <span class="site-languages__trigger hds-icon hds-icon--angle-down" aria-hidden="true"></span>
     </button>
