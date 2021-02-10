@@ -27,7 +27,8 @@ class Navigation extends Composer
             'primary_navigation' => $this->primaryNavigation(),
             'language_navigation' => $this->languageNavigation(),
             'language_code' => $this->languageCode(),
-            'language_name' => $this->languageName()
+            'language_name' => $this->languageName(),
+            'search_enabled' => in_array($this->languageCode(), ['FI', 'EN', 'SV'], true)
         ];
     }
 

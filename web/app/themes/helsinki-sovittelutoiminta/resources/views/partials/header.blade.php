@@ -11,9 +11,11 @@
     <h5>{{ $site_name }}</h5>
   </div>
 
-  <div class="site-header__search">
-    @include('partials.search')
-  </div>
+  @if ($search_enabled)
+    <div class="site-header__search">
+      @include('partials.search')
+    </div>
+  @endif
 
   <div class="site-header__languages">
     @include('partials.languages')

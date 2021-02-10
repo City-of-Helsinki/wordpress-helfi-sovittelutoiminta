@@ -34,6 +34,7 @@
 - Removed placeholder image from person teasers.
 - Updated person list block styles.
 - Added RTL support to various components.
+- Removed site search for all except specific languages.
 
 ## 0.1.0
 
