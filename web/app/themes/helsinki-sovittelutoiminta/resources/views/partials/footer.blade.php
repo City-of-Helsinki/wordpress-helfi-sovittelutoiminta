@@ -17,7 +17,7 @@
       </div>
       <div class="footer__links">
         @php(dynamic_sidebar('footer-contact-links'))
-        <a href="#top">Back to top</a>
+        <a href="#top">{{ __('Back to top', 'hds') }}</a>
       </div>
     </div>
     <div class="footer__fineprint">

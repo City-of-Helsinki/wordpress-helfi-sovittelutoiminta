@@ -68,6 +68,11 @@
 
         &:not(:last-child) {
           margin-right: $spacing-s;
+
+          [dir="rtl"] & {
+            margin-left: $spacing-s;
+            margin-right: 0;
+          }
         }
       }
     }
@@ -81,6 +86,7 @@
       display: flex;
       flex-wrap: wrap;
       padding-left: 0;
+      padding-right: 0;
       list-style-type: none;
       margin-top: 0;
       margin-bottom: -$spacing-m;
@@ -97,6 +103,11 @@
 
           &:not(:last-child) {
             margin-right: $spacing-m;
+
+            [dir="rtl"] & {
+              margin-right: 0;
+              margin-left: $spacing-m;
+            }
           }
         }
 
@@ -196,6 +207,10 @@
 
       @include mq($from: $bp) {
         text-align: right;
+
+        [dir="rtl"] & {
+          text-align: left;
+        }
       }
 
       .widget {
@@ -208,6 +223,11 @@
         a {
           @include mq($from: $bp) {
             margin-right: $spacing-s;
+
+            [dir="rtl"] & {
+              margin-right: 0;
+              margin-left: $spacing-s;
+            }
           }
         }
       }
@@ -228,6 +248,11 @@
         &:not(:last-child) {
           @include mq($from: $bp) {
             margin-right: $spacing-s;
+
+            [dir="rtl"] & {
+              margin-right: 0;
+              margin-left: $spacing-s;
+            }
           }
         }
 
@@ -277,6 +302,10 @@
       @include mq($from: $bp) {
         text-align: left;
         margin-bottom: 0;
+
+        [dir="rtl"] & {
+          text-align: right;
+        }
       }
     }
 
@@ -286,6 +315,10 @@
 
       @include mq($from: $bp) {
         text-align: right;
+
+        [dir="rtl"] & {
+          text-align: left;
+        }
       }
 
       a {
@@ -293,6 +326,11 @@
 
         &:not(:last-child) {
           margin-right: $spacing-s;
+
+          [dir="rtl"] & {
+            margin-right: 0;
+            margin-left: $spacing-s;
+          }
         }
       }
     }
