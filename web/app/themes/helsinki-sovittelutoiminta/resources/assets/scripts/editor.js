@@ -241,6 +241,7 @@ domReady(() => {
   registerBlockStyle('core/list', {
     name: 'default',
     label: 'Default',
+    isDefault: true,
   })
   registerBlockStyle('core/list', {
     name: 'check-circle',
