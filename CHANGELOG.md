@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Add list style check icons to list block
+- Update table styles
 - Update quote block styles.
 - Removed chat popup.
 - Made excerpt not mandatory for posts.
