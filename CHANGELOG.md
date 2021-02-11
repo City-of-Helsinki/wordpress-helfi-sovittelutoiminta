@@ -35,6 +35,7 @@
 - Updated person list block styles.
 - Added RTL support to various components.
 - Removed site search for all except specific languages.
+- Customized some block styles inside full hover style media & text block.
 
 ## 0.1.0
 
