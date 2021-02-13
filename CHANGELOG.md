@@ -2,8 +2,8 @@
 
 ## Unreleased
 
-- Add list style check icons to list block
-- Update table styles
+- Add list style check icons to list block.
+- Update table styles.
 - Update quote block styles.
 - Removed chat popup.
 - Made excerpt not mandatory for posts.
@@ -39,6 +39,7 @@
 - Removed site search for all except specific languages.
 - Customized some block styles inside full hover style media & text block.
 - Added content toggle block.
+- Update content toggle block for accessibility.
 
 ## 0.1.0
 
