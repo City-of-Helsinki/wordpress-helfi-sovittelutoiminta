@@ -41,6 +41,7 @@
 - Added content toggle block.
 - Update content toggle block for accessibility.
 - Added question and answer block.
+- Added option to mark a post or or page as schema.org FAQPage.
 
 ## 0.1.0
 
