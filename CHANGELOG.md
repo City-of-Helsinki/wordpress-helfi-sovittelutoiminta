@@ -40,6 +40,7 @@
 - Customized some block styles inside full hover style media & text block.
 - Added content toggle block.
 - Update content toggle block for accessibility.
+- Added question and answer block.
 
 ## 0.1.0
 
