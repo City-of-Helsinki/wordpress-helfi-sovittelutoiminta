@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "32ad8e3940c0aa22cd7a99bb4ee35d48",
+    "content-hash": "fa029759bb89cab48d695f9d31bd6535",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -6793,16 +6793,16 @@
         },
         {
             "name": "geerlingguy/drupal-vm",
-            "version": "dev-master",
+            "version": "6.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/geerlingguy/drupal-vm.git",
-                "reference": "218b92f3d6e9c79881cffe9e0b7ee82a459627e3"
+                "reference": "e0863ce3b355f995097673997c4bc88ced40629f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/geerlingguy/drupal-vm/zipball/218b92f3d6e9c79881cffe9e0b7ee82a459627e3",
-                "reference": "218b92f3d6e9c79881cffe9e0b7ee82a459627e3",
+                "url": "https://api.github.com/repos/geerlingguy/drupal-vm/zipball/e0863ce3b355f995097673997c4bc88ced40629f",
+                "reference": "e0863ce3b355f995097673997c4bc88ced40629f",
                 "shasum": ""
             },
             "type": "vm",
@@ -6838,7 +6838,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2021-02-02T03:05:58+00:00"
+            "time": "2021-02-14T03:17:36+00:00"
         },
         {
             "name": "generoi/deployer-genero",
@@ -7267,7 +7267,6 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "geerlingguy/drupal-vm": 20,
         "roave/security-advisories": 20
     },
     "prefer-stable": true,
