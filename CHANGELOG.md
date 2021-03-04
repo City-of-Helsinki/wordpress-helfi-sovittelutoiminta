@@ -19,7 +19,6 @@
 - Enabled table block.
 - Changed page and post header background color.
 - Made top navigation narrower to match other content.
-- Removed React & Share from posts.
 - Tweaked post and page header padding.
 - Added description style for paragraph.
 - Made highlight blocks reusable.
@@ -42,6 +41,7 @@
 - Update content toggle block for accessibility.
 - Added question and answer block.
 - Added option to mark a post or or page as schema.org FAQPage.
+- Added React & Share to posts.
 
 ## 0.1.0
 

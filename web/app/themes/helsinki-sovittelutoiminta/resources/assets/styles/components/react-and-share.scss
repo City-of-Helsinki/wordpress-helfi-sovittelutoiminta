@@ -1,26 +1,23 @@
 .rns-plugin {
+  margin-top: $spacing-xl !important;
+
   .rns-header {
-    margin-bottom: $spacing-xl !important;
-    font-size: $fontsize-heading-l !important;
+    margin-bottom: $spacing-l !important;
+    font-size: $fontsize-heading-m !important;
     font-family: $font-default !important;
-    text-align: center;
   }
 
   .rns-reaction {
     .rns-reaction-button {
-      padding-top: 20px !important;
-      padding-bottom: 20px !important;
+      &:hover:focus .rns-label {
+        color: $color-bus !important;
+      }
 
       .rns-label {
-        color: $color-bus !important;
         font-weight: bold !important;
         font-family: $font-default;
         font-size: $fontsize-body-xl;
       }
-    }
-
-    &.selected .rns-reaction-button .rns-label {
-      color: white !important;
     }
   }
 }

@@ -2,7 +2,8 @@
 <script type="text/javascript">
   (function() {
     window.rnsData = {
-      apiKey: 'oyp8ikjx4fndltql'
+      apiKey: '89n7kvu9063iyp4t',
+      categories: ['Sovittelutoiminta']
     };
     var s = document.createElement('script');
     s.src = 'https://cdn.reactandshare.com/plugin/rns.js';
