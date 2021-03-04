@@ -51,6 +51,10 @@
     background-size: 24px;
     transition: transform 85ms ease-out;
 
+    @media (max-width: $break-small) {
+      width: $spacing-2-xs;
+    }
+
     [aria-expanded="true"] & {
       transform: rotate(180deg);
     }
