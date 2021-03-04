@@ -43,7 +43,9 @@
 
         @php(the_content())
 
-        @include('partials/react-and-share')
+        @if (get_locale() == 'fi')
+          @include('partials/react-and-share')
+        @endif
       </x-group>
     </div>
     <div class="entry-sidebar">
