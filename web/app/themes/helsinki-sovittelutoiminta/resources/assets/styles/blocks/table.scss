@@ -1,8 +1,10 @@
 .wp-block-table {
   text-align: left;
+  width: 100% !important;
 
   table {
     border-spacing: 0;
+    width: 100%;
   }
 
   thead {
@@ -19,7 +21,8 @@
   th {
     border: none;
     border: 0;
-    padding: $spacing-2-xs;
+    padding: $spacing-2-xs $spacing-m;
+    word-break: normal !important;
   }
 
   th {
