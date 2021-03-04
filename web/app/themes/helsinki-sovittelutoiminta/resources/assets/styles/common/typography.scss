@@ -32,8 +32,16 @@ h6 {
 h1 {
   font-size: $fontsize-heading-l;
 
+  [lang="ru-RU"] & {
+    font-size: 2rem;
+  }
+
   @include mq($from: medium) {
     font-size: $fontsize-heading-xl;
+
+    [lang="ru-RU"] & {
+      font-size: 3rem;
+    }
   }
 }
 
@@ -42,6 +50,10 @@ h2 {
 
   @include mq($from: medium) {
     font-size: $fontsize-heading-l;
+
+    [lang="ru-RU"] & {
+      font-size: 2rem;
+    }
   }
 }
 
