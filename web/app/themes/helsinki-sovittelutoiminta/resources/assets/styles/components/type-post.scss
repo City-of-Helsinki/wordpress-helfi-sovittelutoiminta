@@ -5,7 +5,7 @@
     @include breakpoint-value($block-paddings) {
       $padding: $-bp-value;
 
-      padding-bottom: calc(#{$padding} + #{$footer-koro-height});
+      padding-bottom: calc(#{$padding} + #{$footer-koro-height} + 25px);
     }
   }
 }

@@ -49,12 +49,12 @@
     // to show under the footer's koro effect, without overlapping the block's
     // content.
     margin-bottom: 0;
-    padding-bottom: calc(#{$spacing-2-xl} + #{$footer-koro-height});
+    padding-bottom: calc(#{$spacing-2-xl} + #{$footer-koro-height} + 25px);
 
     @include breakpoint-value($block-paddings) {
       $padding: $-bp-value;
 
-      padding-bottom: calc(#{$padding} + #{$footer-koro-height});
+      padding-bottom: calc(#{$padding} + #{$footer-koro-height} + 25px);
     }
   }
 
