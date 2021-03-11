@@ -6,12 +6,12 @@
     <input
       type="search"
       name="s"
-      placeholder="{{ __('Search', 'hds') }}"
+      placeholder="{{ __('Search for something', 'hds') }}"
     />
 
     <button type="submit">
       @svg('images/icons/search.svg', '', ['width' => 24, 'height' => 24])
-      <span class="sr-only">{{ __('Search', 'hds') }}</span>
+      <span class="sr-only">{{ __('Search for something', 'hds') }}</span>
     </button>
   </form>
 </div>
