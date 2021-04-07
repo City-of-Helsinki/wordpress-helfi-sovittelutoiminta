@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+- Fixed visual issue in list checkmarks on small screens.
+
 ## 1.0.0
 
 - Add list style check icons to list block.
