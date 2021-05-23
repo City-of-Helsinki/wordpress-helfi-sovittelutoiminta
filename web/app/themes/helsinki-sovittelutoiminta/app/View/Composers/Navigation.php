@@ -48,7 +48,7 @@ class Navigation extends Composer
 
     public function languageName(): string
     {
-        return mb_strtoupper(pll_current_language('name'));
+        return pll_current_language('name');
     }
 
     public function languageNavigation(): array
