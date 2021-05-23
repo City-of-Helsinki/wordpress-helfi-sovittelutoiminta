@@ -7,7 +7,6 @@
   {{ "is-level-$level" }}"
   aria-haspopup="true"
   aria-expanded="false"
-  aria-label="{{ esc_attr($item->label) }}"
   role="none"
 >
   <a
@@ -15,6 +14,7 @@
     target="{{ $item->target ?? '' }}"
     title="{{ $item->title ?? '' }}"
     class="{{ $name }}__link {{ ($item->active || $item->activeAncestor) ? 'is-active': '' }}"
+    aria-label="{{ esc_attr($label ?? $item->label) }}"
     role="menuitem"
   >
     {!! esc_html($item->label) !!}

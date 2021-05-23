@@ -11,6 +11,12 @@ function close(el) {
   el.setAttribute('aria-expanded', false);
 }
 
+function toggle(el) {
+  const isExpanded = el.getAttribute('aria-expanded') === 'true';
+  if (isExpanded) close(el)
+  else open(el)
+}
+
 function keydownListener(e) {
   const currentLink = e.target;
 
@@ -98,6 +104,7 @@ export function button(button) {
   parent.addEventListener('mouseover', () => requestAnimationFrame(() => {
     open(button);
   }));
+  parent.addEventListener('click', () => requestAnimationFrame(() => toggle(button)));
 
   parent.addEventListener('keydown', keydownListener);
 }

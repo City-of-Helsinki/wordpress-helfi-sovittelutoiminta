@@ -3,6 +3,7 @@
 ## Unreleased
 
 - Added aria label to language menu.
+- Improved keyboard navigation in language menu.
 
 ## 1.0.1
 
