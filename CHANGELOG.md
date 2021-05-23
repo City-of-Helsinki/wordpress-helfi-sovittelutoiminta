@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+- Added aria label to language menu.
+
 ## 1.0.1
 
 - Fixed visual issue in list checkmarks on small screens.

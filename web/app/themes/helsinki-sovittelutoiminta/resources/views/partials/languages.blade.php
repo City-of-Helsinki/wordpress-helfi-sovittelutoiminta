@@ -5,6 +5,7 @@
       aria-haspopup="true"
       aria-controls="site-languages"
       aria-expanded="false"
+      aria-label="{{ __('Select language', 'hds') }}"
     >
       <span class="hds-icon hds-icon--size-s hds-icon--globe site-languages__button__language-icon"></span>
       {{ $language_name }}
