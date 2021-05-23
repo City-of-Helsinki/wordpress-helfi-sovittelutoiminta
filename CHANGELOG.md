@@ -4,6 +4,7 @@
 
 - Added aria label to language menu.
 - Improved keyboard navigation in language menu.
+- Added skip to main content link.
 
 ## 1.0.1
 

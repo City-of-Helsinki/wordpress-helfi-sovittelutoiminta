@@ -1,10 +1,16 @@
 <div class="site">
+  <a
+    class="site__skip-to-content"
+    href="#main"
+  >{{ __('Skip to content') }}</a>
+
   <header class="site__header" id="header">
     @php(do_action('get_header'))
     @include('partials.header')
   </header>
 
   <main
+    id="main"
     class="site__content"
     @if (get_field('schema_org_is_faq_page'))
       itemscope
