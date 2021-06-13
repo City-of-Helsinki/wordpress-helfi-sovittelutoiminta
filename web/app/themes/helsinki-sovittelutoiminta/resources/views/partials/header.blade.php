@@ -40,7 +40,11 @@
 <nav class="site-mobile-languages">
   <ul class="site-mobile-languages__menu" role="menu">
     @foreach ($language_navigation as $item)
-      @include('partials.menu-item', ['item' => $item, 'name' => 'site-mobile-languages'])
+      @include('partials.menu-item', [
+        'item' => $item,
+        'name' => 'site-mobile-languages',
+        'label' => sprintf(__('Select language: %s'), $item->label)
+      ])
     @endforeach
   </ul>
 </nav>
