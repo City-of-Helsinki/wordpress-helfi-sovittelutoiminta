@@ -19,10 +19,20 @@
   >
     {!! esc_html($item->label) !!}
 
-    @if ($item->children)
-      <span class="{{ $name }}__submenu-trigger hds-icon hds-icon--angle-down" aria-hidden="true"></span>
-    @endif
   </a>
+  @if ($item->children)
+    <button
+      class="{{ $name }}__submenu-trigger"
+      aria-label="{{ __('Open submenu') }}"
+      aria-controls="submenu-{{ $item->slug }}"
+      role="button"
+    >
+      <span
+        class="hds-icon hds-icon--angle-down"
+        aria-hidden="true"
+      ></span>
+    </button>
+  @endif
 
   @if ($item->children)
     <ul

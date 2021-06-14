@@ -6,6 +6,7 @@
 - Improved keyboard navigation in language menu.
 - Added skip to main content link.
 - Moved language selection in mobile menu to make it more accessible.
+- Improved keyboard navigation in navigation menu.
 
 ## 1.0.1
 

@@ -16,6 +16,7 @@
   }
 
   &__item {
+    position: relative;
     list-style: none;
     font-weight: 500;
     color: $color-black-90;
@@ -36,34 +37,38 @@
 
     // Make space for trigger
     .has-children > & {
-      padding-right: $spacing-s;
+      padding-right: $spacing-l;
     }
   }
 
   &__submenu-trigger {
     width: $spacing-m;
     position: absolute;
-    right: $spacing-s;
-    height: 100%;
+    top: 0;
+    right: 0;
+    height: 56px;
     padding-left: $spacing-s;
     padding-right: $spacing-s;
     box-sizing: content-box;
     background-size: 24px;
-    transition: transform 85ms ease-out;
 
-    @media (max-width: $break-small) {
-      width: $spacing-2-xs;
+    > span {
+      transition: transform 85ms ease-out;
     }
 
-    [aria-expanded="true"] & {
+    [aria-expanded="true"] & > span {
       transform: rotate(180deg);
+    }
+
+    &:focus {
+      outline: solid 3px $color-coat-of-arms;
     }
   }
 
   &__submenu {
     z-index: 1;
     max-height: 0;
-    overflow-y: hidden;
+    visibility: hidden;
     padding-left: $spacing-m;
 
     .site-navigation__link {
@@ -75,6 +80,7 @@
 
     [aria-expanded="true"] > & {
       display: block;
+      visibility: visible;
       max-height: none;
     }
   }
@@ -144,8 +150,6 @@
       padding: 0;
       box-sizing: border-box;
       background-size: contain;
-      height: $spacing-m;
-      right: auto;
     }
 
     &__submenu {
