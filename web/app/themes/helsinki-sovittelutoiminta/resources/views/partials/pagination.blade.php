@@ -20,6 +20,7 @@
         'aria-label' => __('Next page', 'hds'),
       ]),
       'add_fragment' => !empty($fragment) ? "#$fragment" : null,
+      'before_page_number' => '<span class="sr-only">' . __('Go to page', 'hds') . '</span>',
     ]) !!}
   </div>
 @endif

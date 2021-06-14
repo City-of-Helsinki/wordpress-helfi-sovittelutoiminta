@@ -8,6 +8,7 @@
 - Moved language selection in mobile menu to make it more accessible.
 - Improved keyboard navigation in navigation menu.
 - Improved accessibility of back to top button by moving focus to top.
+- Improved accessibility of pagination buttons.
 
 ## 1.0.1
 
