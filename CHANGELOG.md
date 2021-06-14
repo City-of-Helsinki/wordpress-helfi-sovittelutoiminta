@@ -9,6 +9,7 @@
 - Improved keyboard navigation in navigation menu.
 - Improved accessibility of back to top button by moving focus to top.
 - Improved accessibility of pagination buttons.
+- Fixed back icon in pagination.
 
 ## 1.0.1
 
