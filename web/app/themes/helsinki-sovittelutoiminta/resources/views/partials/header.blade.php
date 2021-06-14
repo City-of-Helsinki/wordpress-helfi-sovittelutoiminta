@@ -33,10 +33,6 @@
   </div>
 </div>
 
-<nav class="site-navbar">
-  @include('partials.navigation')
-</nav>
-
 <nav class="site-mobile-languages">
   <ul class="site-mobile-languages__menu" role="menu">
     @foreach ($language_navigation as $item)
@@ -47,4 +43,8 @@
       ])
     @endforeach
   </ul>
+</nav>
+
+<nav class="site-navbar">
+  @include('partials.navigation')
 </nav>
