@@ -2,6 +2,7 @@
   <a
     class="site__skip-to-content"
     href="#main"
+    id="skip-to-content"
   >{{ __('Skip to content') }}</a>
 
   <header class="site__header" id="header">

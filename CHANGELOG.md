@@ -7,6 +7,7 @@
 - Added skip to main content link.
 - Moved language selection in mobile menu to make it more accessible.
 - Improved keyboard navigation in navigation menu.
+- Improved accessibility of back to top button by moving focus to top.
 
 ## 1.0.1
 
