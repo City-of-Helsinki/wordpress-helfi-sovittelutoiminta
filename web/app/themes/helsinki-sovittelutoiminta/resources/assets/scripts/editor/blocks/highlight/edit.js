@@ -87,7 +87,7 @@ function BlockEdit({
             type="string"
             onChange={linkUrl => setAttributes({linkUrl})}
           />
-          <div class={`wp-block-button is-style-outline ${CLASS_NAME}__button`}>
+          <div className={`wp-block-button is-style-outline ${CLASS_NAME}__button`}>
             <RichText
               placeholder={__('Enter button text', DOMAIN)}
               tagName="div"
