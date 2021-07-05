@@ -25,6 +25,9 @@
     },
     "linkUrl": {
       "type": "string"
+    },
+    "isLinkExternal": {
+      "type": "boolean"
     }
   }
 }

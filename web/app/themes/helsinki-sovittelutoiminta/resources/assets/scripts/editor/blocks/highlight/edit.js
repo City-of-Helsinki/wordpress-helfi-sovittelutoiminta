@@ -12,6 +12,7 @@ import {
   PanelBody,
   PanelRow,
   RadioControl,
+  CheckboxControl,
 } from '@wordpress/components'
 
 import icons from '../../../icons'
@@ -29,7 +30,7 @@ function BlockEdit({
   backgroundColor,
   setBackgroundColor,
 }) {
-  const { iconName, heading, body, linkText, linkUrl } = attributes
+  const { iconName, heading, body, linkText, linkUrl, isLinkExternal } = attributes
 
   return (
     <div
@@ -67,6 +68,17 @@ function BlockEdit({
           />
         </div>
         <div className={`${CLASS_NAME}__column button-column`}>
+          <div style={{
+            color: 'white',
+          }}>
+            <CheckboxControl
+              label={__('External link', DOMAIN)}
+              checked={isLinkExternal || false}
+              onChange={isLinkExternal => {
+                setAttributes({isLinkExternal})
+              }}
+            />
+          </div>
           <URLInput
             placeholder={__('Enter link url', DOMAIN)}
             tagName="div"

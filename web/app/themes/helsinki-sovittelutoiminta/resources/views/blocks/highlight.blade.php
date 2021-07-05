@@ -21,7 +21,14 @@
         <div class="wp-block-hds-highlight__column button-column">
             @if ($linkText)
                 <div class="wp-block-button is-style-outline wp-block-hds-highlight__button">
-                    <a class="wp-block-button__link @if ($textColor) has-{!! $textColor !!}-color has-text-color @endif" href="{{ $linkUrl }}">
+                    <a
+                        class="wp-block-button__link @if ($textColor) has-{!! $textColor !!}-color has-text-color @endif"
+                        href="{{ $linkUrl }}"
+                        @if ($isLinkExternal)
+                            aria-label="{{sprintf(__('%s (opens in new tab)'), $linkText)}}"
+                            target="_blank"
+                        @endif
+                    >
                         {{ $linkText }}
                     </a>
                 </div>

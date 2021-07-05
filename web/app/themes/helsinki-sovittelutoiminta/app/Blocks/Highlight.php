@@ -19,6 +19,7 @@ class Highlight extends NativeBlock
             'textColor' => $this->attributes->textColor,
             'linkText' => $this->attributes->linkText,
             'linkUrl' => $this->attributes->linkUrl,
+            'isLinkExternal' => $this->attributes->isLinkExternal,
         ];
     }
 }
