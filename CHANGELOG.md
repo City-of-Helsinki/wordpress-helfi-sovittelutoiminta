@@ -11,6 +11,7 @@
 - Improved accessibility of pagination buttons.
 - Improved accessibility of external links in link block.
 - Improved accessibility of external links in highlight block.
+- Improved accessibility of search input in mobile menu.
 - Fixed back icon in pagination.
 
 ## 1.0.1

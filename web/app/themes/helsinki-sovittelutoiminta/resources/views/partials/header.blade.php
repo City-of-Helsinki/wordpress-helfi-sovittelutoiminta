@@ -12,7 +12,7 @@
   </div>
 
   @if ($search_enabled)
-    <div class="site-header__search">
+    <div class="site-header__search site-header__search--desktop">
       @include('partials.search')
     </div>
   @endif
@@ -31,7 +31,14 @@
       <span aria-hidden="true"></span>
     </button>
   </div>
+
+  @if ($search_enabled)
+    <div class="site-header__search site-header__search--mobile">
+      @include('partials.search')
+    </div>
+  @endif
 </div>
+
 
 <nav class="site-mobile-languages">
   <ul class="site-mobile-languages__menu" role="menu">
