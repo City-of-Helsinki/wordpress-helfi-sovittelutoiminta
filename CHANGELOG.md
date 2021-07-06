@@ -13,6 +13,7 @@
 - Improved accessibility of external links in highlight block.
 - Improved accessibility of search input in mobile menu.
 - Improved contrast of focus indicator in some scenarios.
+- Fixed incorrect role in Twitter share button.
 - Fixed back icon in pagination.
 
 ## 1.0.1
