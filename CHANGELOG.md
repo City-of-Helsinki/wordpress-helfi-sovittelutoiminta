@@ -15,6 +15,7 @@
 - Improved contrast of focus indicator in some scenarios.
 - Fixed incorrect role in Twitter share button.
 - Fixed back icon in pagination.
+- Fixed some incorrect level headings.
 
 ## 1.0.1
 
