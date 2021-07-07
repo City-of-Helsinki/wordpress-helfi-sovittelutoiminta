@@ -43,7 +43,7 @@ class PersonList extends Block
     {
         if (!$this->persons()) {
             if (is_bool($preview) && $preview) {
-                return '<div class="acf-block-placeholder text-center">' . __('No results found...') . '</div>';
+                return '<div class="acf-block-placeholder text-center">' . __('No results found...', 'hds') . '</div>';
             }
             return '';
         }

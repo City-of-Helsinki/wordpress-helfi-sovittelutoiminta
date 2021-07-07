@@ -23,7 +23,7 @@
   @if ($item->children)
     <button
       class="{{ $name }}__submenu-trigger"
-      aria-label="{{ __('Open submenu') }}"
+      aria-label="{{ __('Open submenu', 'hds') }}"
       aria-controls="submenu-{{ $item->slug }}"
       role="button"
     >

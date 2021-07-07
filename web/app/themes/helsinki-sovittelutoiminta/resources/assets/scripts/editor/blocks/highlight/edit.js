@@ -105,17 +105,17 @@ function BlockEdit({
             {
               colorValue: backgroundColor.color,
               onColorChange: setBackgroundColor,
-              label: __('Background color'),
+              label: __('Background color', 'hds'),
             },
             {
               colorValue: iconColor.color,
               onColorChange: setIconColor,
-              label: __('Icon color'),
+              label: __('Icon color', 'hds'),
             },
             {
               colorValue: textColor.color,
               onColorChange: setTextColor,
-              label: __('Text color'),
+              label: __('Text color', 'hds'),
             },
           ]}
         >

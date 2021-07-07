@@ -5,7 +5,7 @@
     target="_blank"
   @endif
   @if ($isExternal)
-    aria-label="{{sprintf(__('%s (opens in new tab)'), $text)}}"
+    aria-label="{{sprintf(__('%s (opens in new tab)', 'hds'), $text)}}"
   @endif
 >
   <div class="

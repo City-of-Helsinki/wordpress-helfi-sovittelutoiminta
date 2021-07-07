@@ -3,7 +3,7 @@
     class="site__skip-to-content"
     href="#main"
     id="skip-to-content"
-  >{{ __('Skip to content') }}</a>
+  >{{ __('Skip to content', 'hds') }}</a>
 
   <header class="site__header" id="header">
     @php(do_action('get_header'))
