@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 1.1.0
 
 - Added aria label to language menu.
 - Improved keyboard navigation in language menu.
