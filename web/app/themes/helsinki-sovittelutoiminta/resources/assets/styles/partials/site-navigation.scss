@@ -178,7 +178,8 @@
         }
       }
 
-      [aria-expanded="true"] > & {
+      [aria-expanded="true"] > &,
+      &.is-active {
         display: block;
         visibility: visible;
 
