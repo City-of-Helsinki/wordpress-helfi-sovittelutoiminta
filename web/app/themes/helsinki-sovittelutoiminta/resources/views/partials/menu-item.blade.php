@@ -35,7 +35,7 @@
 
   @if ($item->children)
     <ul
-      id="submenu-{{ $item->slug }}" class="{{ $name }}__submenu {{ $item->active ? 'is-active' : '' }}"
+      id="submenu-{{ $item->slug }}" class="{{ $name }}__submenu"
       aria-label="{!! esc_attr($item->label) !!}"
       role="menu"
     >

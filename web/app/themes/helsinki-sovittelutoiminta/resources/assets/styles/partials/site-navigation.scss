@@ -78,7 +78,6 @@
       width: 100%;
     }
 
-    [aria-expanded="true"] > &,
     &.is-active {
       display: block;
       visibility: visible;
@@ -128,15 +127,13 @@
         transition: all 100ms ease-out;
       }
 
-      .is-level-1:not(.has-children) > &:focus::after,
-      .is-level-1[aria-expanded="true"] > &::after {
+      .is-level-1 > &:focus::after {
         left: 0;
         right: 0;
         border-bottom-color: $color-black-90;
       }
 
-      &:focus,
-      .is-level-1.has-children[aria-expanded="true"] > & {
+      &:focus {
         outline: none;
         transform: translate3d(0, 0, 0);
         border-radius: 2px;
@@ -178,7 +175,6 @@
         }
       }
 
-      [aria-expanded="true"] > &,
       &.is-active {
         display: block;
         visibility: visible;
