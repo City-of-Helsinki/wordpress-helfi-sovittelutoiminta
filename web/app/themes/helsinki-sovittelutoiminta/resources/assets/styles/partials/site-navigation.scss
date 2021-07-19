@@ -56,7 +56,7 @@
       transition: transform 85ms ease-out;
     }
 
-    [aria-expanded="true"] & > span {
+    &[aria-expanded="true"] > span {
       transform: rotate(180deg);
     }
 
@@ -78,7 +78,8 @@
       width: 100%;
     }
 
-    [aria-expanded="true"] > & {
+    [aria-expanded="true"] > &,
+    &.is-active {
       display: block;
       visibility: visible;
       max-height: none;

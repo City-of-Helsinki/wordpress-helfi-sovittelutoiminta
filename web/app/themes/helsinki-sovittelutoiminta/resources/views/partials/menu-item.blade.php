@@ -5,8 +5,6 @@
   {{ ($item->active || $item->activeAncestor) ? 'is-active': '' }}
   {{ $item->children ? 'has-children' : '' }}
   {{ "is-level-$level" }}"
-  aria-haspopup="true"
-  aria-expanded="false"
   role="none"
 >
   <a
@@ -15,7 +13,6 @@
     title="{{ $item->title ?? '' }}"
     class="{{ $name }}__link {{ ($item->active || $item->activeAncestor) ? 'is-active': '' }}"
     aria-label="{{ esc_attr($label ?? $item->label) }}"
-    role="menuitem"
   >
     {!! esc_html($item->label) !!}
 
@@ -26,6 +23,8 @@
       aria-label="{{ __('Open submenu', 'hds') }}"
       aria-controls="submenu-{{ $item->slug }}"
       role="button"
+      aria-haspopup="menu"
+      aria-expanded="false"
     >
       <span
         class="hds-icon hds-icon--angle-down"
