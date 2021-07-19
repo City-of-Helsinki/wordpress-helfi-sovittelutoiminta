@@ -1,6 +1,6 @@
 import debounce from 'lodash-es/debounce';
 
-import { menu, button } from './components/dropdown';
+import { menu } from './components/dropdown';
 import { toggle, toggler } from './components/toggler';
 
 document.querySelectorAll('.content-toggle').forEach(toggler);
@@ -15,13 +15,12 @@ for (let i = 0; i < submenuTriggers.length; i++) {
   })
 }
 
+toggler(document.querySelector('.site-hamburger-button'));
+
 if (matchMedia('(min-width: 1024px)').matches) {
   if (document.querySelector('.site-navigation')) {
     menu(document.querySelector('.site-navigation'));
   }
-  button(document.querySelector('.site-languages__button'));
-} else {
-  toggler(document.querySelector('.site-hamburger-button'));
 }
 
 const appHeight = () => {
