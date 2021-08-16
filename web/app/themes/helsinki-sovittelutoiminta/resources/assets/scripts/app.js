@@ -1,6 +1,7 @@
 import debounce from 'lodash-es/debounce';
 
 import { menu } from './components/dropdown';
+import { button as legacyButton } from './components/dropdown-legacy';
 import { toggle, toggler } from './components/toggler';
 
 document.querySelectorAll('.content-toggle').forEach(toggler);
@@ -16,6 +17,7 @@ for (let i = 0; i < submenuTriggers.length; i++) {
 }
 
 toggler(document.querySelector('.site-hamburger-button'));
+legacyButton(document.querySelector('.site-languages__button'));
 
 if (matchMedia('(min-width: 1024px)').matches) {
   if (document.querySelector('.site-navigation')) {

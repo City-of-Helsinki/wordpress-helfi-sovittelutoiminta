@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+- Fixed language menu dropdown.
+
 ## 1.1.0
 
 - Added aria label to language menu.
