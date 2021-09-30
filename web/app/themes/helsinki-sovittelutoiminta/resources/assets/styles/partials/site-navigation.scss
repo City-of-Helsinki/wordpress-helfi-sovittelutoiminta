@@ -137,9 +137,6 @@
         outline: none;
         transform: translate3d(0, 0, 0);
         border-radius: 2px;
-      }
-
-      &:focus {
         box-shadow: 0 0 0 3px $color-focus-outline-text-input-default;
       }
     }
