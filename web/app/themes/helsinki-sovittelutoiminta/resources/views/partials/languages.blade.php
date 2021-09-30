@@ -16,7 +16,6 @@
         @include('partials.menu-item', [
           'item' => $item,
           'name' => 'site-languages',
-          'label' => sprintf(__('Select language: %s', 'hds'), $item->label)
         ])
       @endforeach
     </ul>
