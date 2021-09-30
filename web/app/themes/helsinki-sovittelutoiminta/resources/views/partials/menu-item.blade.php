@@ -11,6 +11,10 @@
     target="{{ $item->target ?? '' }}"
     title="{{ $item->title ?? '' }}"
     class="{{ $name }}__link {{ ($item->active || $item->activeAncestor) ? 'is-active': '' }}"
+    @if ($item->lang)
+      lang="{{ $item->lang }}"
+      hreflang="{{ $item->lang }}"
+    @endif
     aria-label="{{ esc_attr($label ?? $item->label) }}"
   >
     {!! esc_html($item->label) !!}

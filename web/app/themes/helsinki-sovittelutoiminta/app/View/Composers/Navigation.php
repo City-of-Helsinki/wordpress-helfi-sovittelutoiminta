@@ -67,6 +67,7 @@ class Navigation extends Composer
                 $item->title = $language['native_name'];
                 $item->url = $language['url'];
                 $item->label = sprintf(__('%s', 'hds'), $language['native_name']);
+                $item->lang = $language['language_code'];
                 $item->disabled = $language['missing'];
                 $item->children = false;
                 return $item;
