@@ -24,7 +24,7 @@
   <div class="site-header__hamburger-button">
     <button
       class="site-hamburger-button"
-      aria-label="{{ __('Open navigation', 'hds') }}"
+      aria-label="{{ __('Navigation', 'hds') }}"
       aria-expanded="false"
       aria-controls="header"
     >
