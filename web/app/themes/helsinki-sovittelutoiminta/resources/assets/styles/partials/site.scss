@@ -5,6 +5,7 @@
   height: 100%;
 }
 
+.site__skip-to-languages--mobile,
 .site__skip-to-content {
   position: absolute;
   height: 1px;
@@ -20,6 +21,12 @@
     height: auto;
     z-index: 999;
     background-color: white;
+  }
+}
+
+@include mq($from: large) {
+  .site__skip-to-languages--mobile {
+    display: none;
   }
 }
 

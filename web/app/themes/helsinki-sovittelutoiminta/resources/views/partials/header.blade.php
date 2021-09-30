@@ -40,7 +40,8 @@
 </div>
 
 
-<nav class="site-mobile-languages">
+<nav class="site-mobile-languages" aria-label="{{ __('Valitse kieli, Ändra språk, Change language', 'hds') }}">
+  <a id="site-mobile-languages" tabindex="-1"></a>
   <ul class="site-mobile-languages__menu">
     @foreach ($language_navigation as $item)
       @include('partials.menu-item', [
