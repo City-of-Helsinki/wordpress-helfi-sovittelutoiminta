@@ -41,7 +41,7 @@
 
 
 <nav class="site-mobile-languages">
-  <ul class="site-mobile-languages__menu" role="menu">
+  <ul class="site-mobile-languages__menu">
     @foreach ($language_navigation as $item)
       @include('partials.menu-item', [
         'item' => $item,

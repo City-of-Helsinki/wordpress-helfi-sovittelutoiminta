@@ -11,7 +11,7 @@
         {{ $language_name }}
       <span class="site-languages__trigger hds-icon hds-icon--angle-down" aria-hidden="true"></span>
     </button>
-    <ul class="site-languages__menu" id="site-languages" role="menu">
+    <ul class="site-languages__menu" id="site-languages">
       @foreach ($language_navigation as $item)
         @include('partials.menu-item', [
           'item' => $item,
