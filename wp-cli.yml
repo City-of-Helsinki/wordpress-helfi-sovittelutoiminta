@@ -5,9 +5,9 @@ server:
 require:
   - vendor/generoi/genero-conf/wp/wp-cli-pre-ssh.php
 
-'@docker':
+'@ddev':
   path: /var/www/html/web/wp
-  url: helsinki-sovittelutoiminta.ddev.local
+  url: helsinkisovittelutoiminta.ddev.site
 
 '@dev':
   ssh: vagrant@helsinki-sovittelutoiminta.test/var/www/wordpress/web/wp
