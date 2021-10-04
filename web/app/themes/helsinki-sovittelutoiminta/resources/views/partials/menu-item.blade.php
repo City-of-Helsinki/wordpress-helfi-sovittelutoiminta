@@ -23,7 +23,7 @@
   @if ($item->children)
     <button
       class="{{ $name }}__submenu-trigger"
-      aria-label="{{ sprintf(__('% submenu', 'hds'), $label ?? $item->label) }}"
+      aria-label="{{ sprintf(__('%s submenu', 'hds'), $label ?? $item->label) }}"
       aria-controls="submenu-{{ $item->slug }}"
       role="button"
       aria-haspopup="true"
