@@ -37,3 +37,14 @@ if (document.querySelector('a[href="#top"]')) {
     document.getElementById('skip-to-content').focus();
   });
 }
+
+
+const skipToLanguagesLink = document.querySelector('[data-skip-to-languages]');
+if (skipToLanguagesLink) {
+  skipToLanguagesLink.addEventListener('click', () => {
+    const targetSelector = skipToLanguagesLink.getAttribute('href');
+
+    toggle(document.querySelector('.site-hamburger-button'));
+    document.querySelector(targetSelector).focus();
+  });
+}

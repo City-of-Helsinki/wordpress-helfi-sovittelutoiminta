@@ -23,7 +23,7 @@ function keydownListener(e) {
   // The element that would trigger a submenu
   const currentItem = currentLink.matches('[aria-haspopup]') ?
     currentLink :
-    currentLink.closest('[aria-haspopup');
+    currentLink.closest('[aria-haspopup]');
 
   const isInSubmenu = !! currentLink.closest('[role="menu"]');
 
@@ -44,7 +44,7 @@ function keydownListener(e) {
 
   // The closest parent element that triggers a submenu
   const parentItem = parentLink ?
-    (parentLink.matches('[aria-haspopup') ? parentLink : parentLink.closest('[aria-haspopup')) :
+    (parentLink.matches('[aria-haspopup]') ? parentLink : parentLink.closest('[aria-haspopup]')) :
     null;
 
   switch (e.keyCode) {

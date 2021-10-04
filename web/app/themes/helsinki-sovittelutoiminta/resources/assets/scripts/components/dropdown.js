@@ -59,7 +59,7 @@ function keydownListener(e) {
 
 function openItem (itemEl) {
   if (!itemEl) return
-  const controlEl = itemEl.querySelector('[aria-haspopup="menu"]')
+  const controlEl = itemEl.querySelector('[aria-haspopup="true"]')
   const controlsEl = controlEl && controlEl.getAttribute('aria-controls')
     ? document.getElementById(controlEl.getAttribute('aria-controls'))
     : undefined
@@ -73,7 +73,7 @@ function openItem (itemEl) {
 
 function closeItem (itemEl) {
   if (!itemEl) return
-  const controlEl = itemEl.querySelector('[aria-haspopup="menu"]')
+  const controlEl = itemEl.querySelector('[aria-haspopup="true"]')
   const controlsEl = controlEl && controlEl.getAttribute('aria-controls')
     ? document.getElementById(controlEl.getAttribute('aria-controls'))
     : undefined

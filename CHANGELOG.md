@@ -1,5 +1,14 @@
 # Changelog
 
+## Unreleases
+
+- Added a skip to languages link for mobile users [2.7]
+- Improved accessibility by reading country links in relevant language
+- Improved accessibility by optimizing labels and content read to to screen readers
+- Improved accessibility of primary navigation
+- Added ddev local development environment
+- Added support for support PHP 7.4 and Composer v2
+
 ## 1.1.1
 
 - Fixed language menu dropdown.

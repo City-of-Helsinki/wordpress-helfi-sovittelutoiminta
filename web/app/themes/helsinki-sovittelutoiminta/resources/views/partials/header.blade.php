@@ -24,7 +24,7 @@
   <div class="site-header__hamburger-button">
     <button
       class="site-hamburger-button"
-      aria-label="{{ __('Open navigation', 'hds') }}"
+      aria-label="{{ __('Navigation', 'hds') }}"
       aria-expanded="false"
       aria-controls="header"
     >
@@ -40,13 +40,13 @@
 </div>
 
 
-<nav class="site-mobile-languages">
-  <ul class="site-mobile-languages__menu" role="menu">
+<nav class="site-mobile-languages" aria-label="{{ __('Valitse kieli, Ändra språk, Change language', 'hds') }}">
+  <a id="site-mobile-languages" tabindex="-1"></a>
+  <ul class="site-mobile-languages__menu">
     @foreach ($language_navigation as $item)
       @include('partials.menu-item', [
         'item' => $item,
         'name' => 'site-mobile-languages',
-        'label' => sprintf(__('Select language: %s', 'hds'), $item->label)
       ])
     @endforeach
   </ul>

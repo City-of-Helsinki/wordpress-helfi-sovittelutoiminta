@@ -5,6 +5,12 @@
     id="skip-to-content"
   >{{ __('Skip to content', 'hds') }}</a>
 
+  <a
+    class="site__skip-to-languages--mobile"
+    href="#site-mobile-languages"
+    data-skip-to-languages
+  >{{ __('Valitse kieli, Ändra språk, Change language', 'hds') }}</a>
+
   <header class="site__header" id="header">
     @php(do_action('get_header'))
     @include('partials.header')
